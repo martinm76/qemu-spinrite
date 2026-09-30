@@ -2,6 +2,22 @@
 Wrapper script to optimize running SpinRite in a Qemu VM with KVM accelleration and native I/O
 Tested with SpinRite 6.1 but other versions will likely work as well. SpinRite 6.0 should have no trouble, but get the upgrade from grc.com, it's certainly worth it.
 
+## Screenshots
+
+### SpinRite running under QEMU
+
+Example of SpinRite running against a physical disk through QEMU/KVM:
+
+![SpinRite running under QEMU](SpinRite-example.png)
+
+### Benchmark
+
+Example SpinRite benchmark:
+
+![SpinRite benchmark](SpinRite-benchmark.png)
+
+Full instructions below
+
 # QEMU SpinRite Launcher
 
 A small Bash utility for running **SpinRite 6.1** against physical disks through QEMU.
