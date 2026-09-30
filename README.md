@@ -41,8 +41,8 @@ The bus-speed display is particularly useful when working with external SSDs. A 
 For example:
 
 ```text
-[1] /dev/sda - Samsung Portable SSD T5 (465.8G) [USB 5000M] [✅ READY (Not mounted)]
-[2] /dev/sdb - SandForce[484167] (29.8G) [USB 480M] [✅ READY (Not mounted)]
+[1] /dev/sda - Samsung Portable SSD T5 (465.8G) [USB 5000M] [✅ Reardy (Not mounted)]
+[2] /dev/sdb - SandForce[484167] (29.8G) [USB 480M] [✅ Ready (Not mounted)]
 [3] /dev/nvme0n1 - SAMSUNG MZVLW512HMJP-00000 (476.9G) [NVMe / PCIe 8.0 GT/s PCIe x4] [⚠️ MOUNTED (LOCKED)]
 ```
 
@@ -54,7 +54,7 @@ The script requires:
 
 - Linux
 - Bash
-- QEMU
+- QEMU (qemu-system-x86_64, and likely a few other qemu packages. On Arch, install 'qemu-full' and be done with it)
 - KVM support
 - `lsblk`
 - `udisksctl` or `umount`
