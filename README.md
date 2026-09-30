@@ -1,6 +1,7 @@
 # qemu-spinrite
 Wrapper script to optimize running SpinRite in a Qemu VM with KVM accelleration and native I/O
 Tested with SpinRite 6.1 but other versions will likely work as well. SpinRite 6.0 should have no trouble, but get the upgrade from grc.com, it's certainly worth it.
+For SSD's and other non-spindle devices stick to level 2, unless you are told otherwise in GRC's forums!
 
 ## Screenshots
 
